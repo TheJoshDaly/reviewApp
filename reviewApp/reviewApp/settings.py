@@ -25,6 +25,14 @@ SECRET_KEY = '$mq9d0*yi2ps3)66az9rk&9qzt^qfwh!622=elk4ev+yj@0p_c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+EMAIl_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.mail.yahoo.com'
+EMAIL_HOST_USER = 'djangotest85@yahoo.com'
+EMAIL_HOST_PASSWORD = 'Djangowork1'
+EMAIL_PORT = 465
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = '<djangotest85@yahoo.com>'
+
 ALLOWED_HOSTS = []
 
 
